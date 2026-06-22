@@ -2,22 +2,73 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     </head>
     <body>
         
-        <div id="hero-panel">
-            <h1>GitHub Repo Analyzer</h1>
-            <p>This is GRA. blah blah b
-                lah blah blah blah blah b
-                lah blah blah blah blah bl
-                ah blah blah blah blah blah bl
-                ah blah blah blah blah blah</p>
-            <div id="btns">
-                <input class="input-el"></input>
-                <button id="startEngine">Start</button>
+        
+        <section id="landing-page">
+            <video autoplay muted loop playsinline id="bg-video">
+                <source src="background.mp4" type="video/mp4">
+            </video>
+            <div class="navbar">
+                <div id="logo">GitHubCo.</div>
+                <div id="right-navbar">
+                    <div class="nav-item"><a href="index.html">Home</a></div>
+                    <div class="nav-item"><a href="about-us.html">About Us</a></div>
+                </div>
+            </div>    
+            <div id="hero-panel">
+                <div id="tagline">
+                <h1>Fetch your GitHub</h1>
+                <h1>Profile Analytics in Seconds</h1>
+                </div>
+                <div id="btns">
+                    <div id="learn-more"><a href="learn-more.html">Learn More ↗</a></div>
+                    <button id="start">Get Started</button>
+                </div>
             </div>
-        </div>
+                    
+        <div class="overlay"></div>
+        <div class="fade"></div>
+        </section>
 
+        
+        <section id="main-engine">
+            <div class="marquee">
+                <div class="track">
+                    <span>GitHub ✦ GitHub ✦ GitHub ✦ GitHub ✦ GitHub ✦</span>
+                    <span>GitHub ✦ GitHub ✦ GitHub ✦ GitHub ✦ GitHub ✦</span>
+                </div>
+            </div>
+            <div class="track">
+                    <span>GitHub ✦ GitHub ✦ GitHub ✦ GitHub ✦ GitHub ✦</span>
+                    <span>GitHub ✦ GitHub ✦ GitHub ✦ GitHub ✦ GitHub ✦</span>
+            </div>
+            <div class="engine">
+                <input id="input-el">
+                <button id="submit-el">Fetch</button>
+            </div>
+            <div class="marquee">
+                <div class="track">
+                    <span>GitHub ✦ GitHub ✦ GitHub ✦ GitHub ✦ GitHub ✦</span>
+                    <span>GitHub ✦ GitHub ✦ GitHub ✦ GitHub ✦ GitHub ✦</span>
+                </div>
+            </div>
+            <div class="track">
+                    <span>GitHub ✦ GitHub ✦ GitHub ✦ GitHub ✦ GitHub ✦</span>
+                    <span>GitHub ✦ GitHub ✦ GitHub ✦ GitHub ✦ GitHub ✦</span>
+            </div>
+        </section>
+        
+        
+        <section id="results">
+
+        </section>
+        
+        
         <script src="script.js"></script>
     </body>
 </html>
